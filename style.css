@@ -42,6 +42,12 @@ nav ul li a {
 }
 
 .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px; /* ensures space for text + button */
+    padding: 60px 20px;
     background: linear-gradient(to right, #0B3D91, #06286B);
     color: white;
     text-align: center;
